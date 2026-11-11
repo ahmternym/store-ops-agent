@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "key": "syn-001",
+      "title": "Level 37 shows solved but next level does not unlock (v1.16)",
+      "labels": [
+        "bug"
+      ],
+      "reviewIds": [
+        "syn-001"
+      ],
+      "url": null,
+      "createdAt": "2026-11-11T18:13:33.532Z"
+    },
+    {
+      "key": "syn-003",
+      "title": "Game stuck on black screen at launch on iPad (iPadOS 26.1)",
+      "labels": [
+        "bug",
+        "crash"
+      ],
+      "reviewIds": [
+        "syn-003"
+      ],
+      "url": null,
+      "createdAt": "2026-11-11T18:13:35.684Z"
+    }
+  ],
+  "drafts": [
+    {
+      "reviewId": "syn-001",
+      "language": "en",
+      "text": "Sorry about this, and thanks for the clear report! We've passed the level 37 problem (solved, but the next level not opening in 1.16) to the team to investigate. Thanks for your patience.",
+      "status": "pending",
+      "createdAt": "2026-11-11T18:13:37.130Z"
+    },
+    {
+      "reviewId": "syn-002",
+      "language": "en",
+      "text": "Thanks for playing, and for the honest feedback! We hear you on an ad after every level feeling like too much, and we've shared your note, including your interest in a way to remove ads, with the team.",
+      "status": "pending",
+      "createdAt": "2026-11-11T18:13:38.429Z"
+    },
+    {
+      "reviewId": "syn-003",
+      "language": "tr",
+      "text": "Yaşadığınız sorun için üzgünüz, bildirdiğiniz için teşekkürler! iPadOS 26.1'de açılışta siyah ekranda kalma sorununu ekibimize ilettik ve inceleniyor. Sabrınız için teşekkür ederiz.",
+      "status": "pending",
+      "createdAt": "2026-11-11T18:13:40.137Z"
+    },
+    {
+      "reviewId": "syn-005",
+      "language": "en",
+      "text": "So glad you're enjoying it! Thanks for the undo suggestion; sliding the wrong block is frustrating, and we've added your request to our feedback list for the team.",
+      "status": "pending",
+      "createdAt": "2026-11-11T18:13:41.332Z"
+    }
+  ]
+}
