@@ -1,0 +1,27 @@
+{"t":"2026-11-11T18:13:29.200Z","tool_use":"mcp__store_ops__get_reviews","input":{}}
+{"t":"2026-11-11T18:13:29.218Z","permission":"mcp__store_ops__get_reviews","decision":"allow"}
+{"t":"2026-11-11T18:13:29.242Z","tool":"get_reviews","returned":6,"total":6}
+{"t":"2026-11-11T18:13:33.520Z","tool_use":"mcp__store_ops__create_issue","input":{"title":"Level 37 shows solved but next level does not unlock (v1.16)","body":"**What happens:** After solving level 37, the game marks it solved but the next level never opens. Restarting the app does not help.\n\n**Version:** 1.16 (reported \"after the last update\")\n**Store:** US\n\n**Quote:** \"level 37 says solved but the next level never opens. I restarted twice.\"","labels":["bug"],"review_ids":["syn-001"]}}
+{"t":"2026-11-11T18:13:33.526Z","permission":"mcp__store_ops__create_issue","decision":"allow"}
+{"t":"2026-11-11T18:13:33.533Z","tool":"create_issue","title":"Level 37 shows solved but next level does not unlock (v1.16)","dryRun":true,"url":null}
+{"t":"2026-11-11T18:13:35.673Z","tool_use":"mcp__store_ops__create_issue","input":{"title":"Game stuck on black screen at launch on iPad (iPadOS 26.1)","body":"**What happens:** On iPad, the game stays on a black screen at launch and never loads.\n\n**Version:** 1.16\n**Device/OS:** iPad, iPadOS 26.1\n**Store:** TR\n\n**Quote (Turkish):** \"iPad'de oyun açılışta siyah ekranda kalıyor, iPadOS 26.1.\" (= On iPad the game stays on a black screen at launch.)","labels":["bug","crash"],"review_ids":["syn-003"]}}
+{"t":"2026-11-11T18:13:35.678Z","permission":"mcp__store_ops__create_issue","decision":"allow"}
+{"t":"2026-11-11T18:13:35.684Z","tool":"create_issue","title":"Game stuck on black screen at launch on iPad (iPadOS 26.1)","dryRun":true,"url":null}
+{"t":"2026-11-11T18:13:37.120Z","tool_use":"mcp__store_ops__save_reply_draft","input":{"review_id":"syn-001","language":"en","text":"Sorry about this, and thanks for the clear report! We've passed the level 37 problem (solved, but the next level not opening in 1.16) to the team to investigate. Thanks for your patience."}}
+{"t":"2026-11-11T18:13:37.126Z","permission":"mcp__store_ops__save_reply_draft","decision":"allow"}
+{"t":"2026-11-11T18:13:37.131Z","tool":"save_reply_draft","reviewId":"syn-001"}
+{"t":"2026-11-11T18:13:38.420Z","tool_use":"mcp__store_ops__save_reply_draft","input":{"review_id":"syn-002","language":"en","text":"Thanks for playing, and for the honest feedback! We hear you on an ad after every level feeling like too much, and we've shared your note, including your interest in a way to remove ads, with the team."}}
+{"t":"2026-11-11T18:13:38.425Z","permission":"mcp__store_ops__save_reply_draft","decision":"allow"}
+{"t":"2026-11-11T18:13:38.434Z","tool":"save_reply_draft","reviewId":"syn-002"}
+{"t":"2026-11-11T18:13:40.122Z","tool_use":"mcp__store_ops__save_reply_draft","input":{"review_id":"syn-003","language":"tr","text":"Yaşadığınız sorun için üzgünüz, bildirdiğiniz için teşekkürler! iPadOS 26.1'de açılışta siyah ekranda kalma sorununu ekibimize ilettik ve inceleniyor. Sabrınız için teşekkür ederiz."}}
+{"t":"2026-11-11T18:13:40.130Z","permission":"mcp__store_ops__save_reply_draft","decision":"allow"}
+{"t":"2026-11-11T18:13:40.138Z","tool":"save_reply_draft","reviewId":"syn-003"}
+{"t":"2026-11-11T18:13:41.320Z","tool_use":"mcp__store_ops__save_reply_draft","input":{"review_id":"syn-005","language":"en","text":"So glad you're enjoying it! Thanks for the undo suggestion; sliding the wrong block is frustrating, and we've added your request to our feedback list for the team."}}
+{"t":"2026-11-11T18:13:41.326Z","permission":"mcp__store_ops__save_reply_draft","decision":"allow"}
+{"t":"2026-11-11T18:13:41.334Z","tool":"save_reply_draft","reviewId":"syn-005"}
+{"t":"2026-11-11T18:13:41.712Z","tool_use":"mcp__store_ops__mark_reviewed","input":{"review_ids":["syn-001","syn-002","syn-003","syn-004","syn-005","syn-006"]}}
+{"t":"2026-11-11T18:13:41.718Z","permission":"mcp__store_ops__mark_reviewed","decision":"allow"}
+{"t":"2026-11-11T18:13:41.725Z","tool":"mark_reviewed","added":6}
+{"t":"2026-11-11T18:13:47.132Z","permission":"mcp__store_ops__write_report","decision":"allow"}
+{"t":"2026-11-11T18:13:47.140Z","tool":"write_report","file":"reports/report-2026-11-11.md"}
+{"t":"2026-11-11T18:13:52.578Z","result":"success","turns":10,"cost_usd":0.2181,"denied":0}
