@@ -1,0 +1,28 @@
+{
+  "name": "store-ops-agent",
+  "version": "0.1.0",
+  "description": "An AI agent that triages App Store reviews: files bug issues, drafts replies for human approval, writes a weekly report. Built with the Claude Agent SDK and exposed as an MCP server.",
+  "scripts": {
+    "agent": "tsx src/agent.ts",
+    "mcp": "tsx src/mcp-stdio.ts",
+    "approve": "tsx src/approve.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "Ahmet Eren Yaman",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.3.322",
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  },
+  "type": "module",
+  "private": true
+}
